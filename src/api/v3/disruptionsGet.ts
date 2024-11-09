@@ -1,4 +1,4 @@
-import { CurrentDisruptionV3 } from "../../model/v3/disruption.ts";
+import type { CurrentDisruptionV3 } from "../../model/v3/disruption.ts";
 import { DEV_BASE_URL, PROD_BASE_URL, V3_GET_LINES_DISRUPTIONS } from "../../utils/endpoints.ts";
 import { ISFetcher } from "../../utils/fetcher.ts";
 

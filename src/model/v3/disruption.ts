@@ -1,5 +1,5 @@
-import { DisruptionLevelV3 } from "./disruptionLevel.ts";
-import { LineV3 } from "./line.ts";
+import type { DisruptionLevelV3 } from "./disruptionLevel.ts";
+import type { LineV3 } from "./line.ts";
 
 export interface CurrentDisruptionV3 {
   timestamp: string;

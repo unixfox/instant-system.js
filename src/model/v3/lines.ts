@@ -1,5 +1,5 @@
-import { DisruptionV3 } from "./disruption.ts";
-import { LineV3 } from "./line.ts";
+import type { DisruptionV3 } from "./disruption.ts";
+import type { LineV3 } from "./line.ts";
 
 export interface LinesV3 {
   lines: LineV3[];
