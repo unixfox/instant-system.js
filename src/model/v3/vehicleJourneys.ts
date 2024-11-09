@@ -1,6 +1,6 @@
 export interface VehicleJourneysV3 {
-  return: VehicleJourney[];
-  outward: VehicleJourney[];
+  return?: VehicleJourney[];
+  outward?: VehicleJourney[];
 }
 
 interface VehicleJourney {
