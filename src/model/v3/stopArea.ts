@@ -9,7 +9,7 @@ export interface StopArea {
   lat: number;
   lon: number;
   city: string;
-  modes?: Mode[];
+  modes: Mode[];
   lines: LineV3[];
   commercialModes: object;
   actions: Action[];
