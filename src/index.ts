@@ -1,1 +1,1 @@
-export * as default from "./api";
+export * as default from "./api/index.ts";

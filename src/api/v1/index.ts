@@ -1,2 +1,2 @@
-export * from "./bannerGet";
-export * from "./networkGet";
+export * from "./bannerGet.ts";
+export * from "./networkGet.ts";

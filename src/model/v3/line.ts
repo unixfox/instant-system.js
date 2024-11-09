@@ -1,7 +1,7 @@
-import { Mode } from "../mode";
-import { DisruptionLevelV3 } from "./disruptionLevel";
-import { FavoriteModesV3 } from "./favoriteModes";
-import { ScheduleSearchModeV3 } from "./scheduleSearchMode";
+import { Mode } from "../mode.ts";
+import { DisruptionLevelV3 } from "./disruptionLevel.ts";
+import { FavoriteModesV3 } from "./favoriteModes.ts";
+import { ScheduleSearchModeV3 } from "./scheduleSearchMode.ts";
 
 export interface LineV3 {
   operatorId: string;

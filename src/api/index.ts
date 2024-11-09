@@ -1,2 +1,2 @@
-export * from "./v1";
-export * from "./v3";
+export * from "./v1/index.ts";
+export * from "./v3/index.ts";
