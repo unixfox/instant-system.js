@@ -1,4 +1,4 @@
-import type { NetworkV1 } from "../../model/v1/network.ts";
+import { NetworkV1 } from "../../model/v1/network.ts";
 import { DEV_BASE_URL, PROD_BASE_URL, V1_GET_NETWORK } from "../../utils/endpoints.ts";
 import { ISFetcher } from "../../utils/fetcher.ts";
 

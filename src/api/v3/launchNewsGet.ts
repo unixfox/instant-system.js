@@ -1,4 +1,4 @@
-import type { LaunchNewsV3 } from "../../model/v3/launchNews.ts";
+import { LaunchNewsV3 } from "../../model/v3/launchNews.ts";
 import { DEV_BASE_URL, PROD_BASE_URL, V3_GET_NETWORK_LAUNCHNEWS } from "../../utils/endpoints.ts";
 import { ISFetcher } from "../../utils/fetcher.ts";
 

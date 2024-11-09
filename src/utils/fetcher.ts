@@ -1,5 +1,5 @@
 /** @module fetcher */
-import type { FetcherOptions } from "../model/fetcher.ts";
+import { FetcherOptions } from "../model/fetcher.ts";
 
 export const ISFetcher = async (url: string, options: FetcherOptions) => {
   const response = await fetch(url, {

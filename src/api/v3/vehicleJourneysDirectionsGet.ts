@@ -1,4 +1,4 @@
-import type { VehicleJourneysDirectionsV3 } from "../../model/v3/vehicleJourneysDirections.ts";
+import { VehicleJourneysDirectionsV3 } from "../../model/v3/vehicleJourneysDirections.ts";
 import { DEV_BASE_URL, PROD_BASE_URL, V3_GET_VEHICLEJOURNEYS_DIRECTIONS } from "../../utils/endpoints.ts";
 import { ISFetcher } from "../../utils/fetcher.ts";
 

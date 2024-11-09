@@ -1,4 +1,4 @@
-import type { BannerV1 } from "../../model/v1/banner.ts";
+import { BannerV1 } from "../../model/v1/banner.ts";
 import { DEV_BASE_URL, PROD_BASE_URL, V1_GET_BANNERS } from "../../utils/endpoints.ts";
 import { ISFetcher } from "../../utils/fetcher.ts";
 

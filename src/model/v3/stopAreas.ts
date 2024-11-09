@@ -1,4 +1,4 @@
-import type { StopArea } from "./stopArea.ts";
+import { StopArea } from "./stopArea.ts";
 
 export interface StopAreas {
   timestamp: string;

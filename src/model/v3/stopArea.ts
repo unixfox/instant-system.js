@@ -1,5 +1,5 @@
-import type { Mode } from "../mode.ts";
-import type { LineV3 } from "./line.ts";
+import { Mode } from "../mode.ts";
+import { LineV3 } from "./line.ts";
 
 export interface StopArea {
   id: string;

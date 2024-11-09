@@ -1,4 +1,4 @@
-import type { LinesV3 } from "../../model/v3/lines.ts";
+import { LinesV3 } from "../../model/v3/lines.ts";
 import { DEV_BASE_URL, PROD_BASE_URL, V3_GET_LINE } from "../../utils/endpoints.ts";
 import { ISFetcher } from "../../utils/fetcher.ts";
 

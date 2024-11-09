@@ -1,6 +1,6 @@
-import type { Mode } from "../mode.ts";
-import type { LayoutTypeV1 } from "./layoutType.ts";
-import type { OperatorV1 } from "./operator.ts";
+import { Mode } from "../mode.ts";
+import { LayoutTypeV1 } from "./layoutType.ts";
+import { OperatorV1 } from "./operator.ts";
 
 export interface NetworkV1 {
   timestamp: string;
