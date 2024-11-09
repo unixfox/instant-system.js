@@ -3,3 +3,4 @@ export * from "./networkGet";
 export * from "./launchNewsGet";
 export * from "./lineGet";
 export * from "./linesGet";
+export * from "./vehicleJourneysDirectionsGet";
