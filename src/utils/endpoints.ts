@@ -16,4 +16,4 @@ export const V3_GET_LINE_STOP_AREA = (networkID: number, lineID: string) => `/v3
 export const V3_GET_LINE_STOP_AREA_SCHEDULES = (networkID: number, lineID: number,  stopAreaID: string) => `/v3/networks/${networkID}/lines/${lineID}/stopAreas/${stopAreaID}/schedules`;
 export const V3_GET_LINES = (networkID: number) => `/v3/networks/${networkID}/lines`;
 export const V3_GET_LINE = (networkID: number, lineID: string) => `/v3/networks/${networkID}/lines/${lineID}`;
-export const V3_GET_VEHICLEJOURNEYS_DIRECTIONS = (networkID: number, lineID: string) => `/v3/networks/${networkID}/lines/${lineID}/vehicleJourneys/directions`;
+export const V3_GET_VEHICLEJOURNEYS_DIRECTIONS = (networkID: number, lineID: string) => `/v3/networks/${networkID}/lines/${lineID}/vehicleJourneys/directions?key=${networkID}`;
