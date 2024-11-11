@@ -13,7 +13,7 @@ export const V3_GET_NETWORK_LAUNCHNEWS = (networkID: number) => `/v3/networks/${
 export const V3_GET_NETWORK_PROXIMITY = (networkID: number) => `/v3/networks/${networkID}/proximity`;
 export const V3_GET_LINES_DISRUPTIONS = (networkID: number) => `/v3/networks/${networkID}/lines/disruptions`;
 export const V3_GET_LINE_STOP_AREA = (networkID: number, lineID: string) => `/v3/networks/${networkID}/lines/${lineID}/stopAreas`;
-export const V3_GET_LINE_STOP_AREA_SCHEDULES = (networkID: number, lineID: number,  stopAreaID: string) => `/v3/networks/${networkID}/lines/${lineID}/stopAreas/${stopAreaID}/schedules`;
+export const V3_GET_LINE_STOP_AREA_SCHEDULES = (networkID: number, lineID: string, stopAreaID: string) => `/v3/networks/${networkID}/lines/${lineID}/stopAreas/${stopAreaID}/schedules`;
 export const V3_GET_LINES = (networkID: number) => `/v3/networks/${networkID}/lines`;
 export const V3_GET_LINE = (networkID: number, lineID: string) => `/v3/networks/${networkID}/lines/${lineID}`;
 export const V3_GET_VEHICLEJOURNEYS_DIRECTIONS = (networkID: number, lineID: string) => `/v3/networks/${networkID}/lines/${lineID}/vehicleJourneys/directions?key=${networkID}`;
